@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(33, 34, 33);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+h2 {
+    background-color: rgb(40, 41, 40) ;
+    color: white;
+    width: 300px;
+    margin: center;
+}
+p {
+    color: grey;
+    
+}
+span {
+    color: #F70037;
+}
+.titulo {
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(129, 185, 129);
+}
+
+header {
+    text-align: center;
+    background-color: #2FAA66;
+    padding:7px;
+}
+nav {
+    text-align: left;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    
+}
+nav > a:hover {
+    background-color: green;
+    transition-delay: 150ms;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.308);
+    
+}
+
+@font-face {
+    font-family: "myFirstFont";
+    src: url("fontes/idroid.otf") format("opentype") ;
+    font-weight: normal;
+    font-style: normal;
+}
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+main h1{
+    font-family: "myFirstFont" ;
+    font-weight: lighter;
+    font-size: 30px;
+    color: green;
+}
+main h2{
+    font-family: "myFirstFont" ;
+    font-weight: lighter;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
